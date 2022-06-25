@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "button-hover.css";
+/*@import "parallax-scroll-mount.css";*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*min-height: 100vh;*/
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    height: 70px;
+    width: 100%;
+
+}
+
+section {
+    margin-top: 100px;
+}

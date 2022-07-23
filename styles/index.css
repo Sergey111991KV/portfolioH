@@ -38,6 +38,7 @@ nav {
     background-color: #ffede6;
     display: flex;
     align-items: center;
+    color: #ff6c34;
 }
 
 .nav_inside{
@@ -53,10 +54,20 @@ nav {
     width: 25px;
 }
 
-.menu{
-    height: 70px;
+.menu_tree{
+    margin-top: 100px;
+    height: 100%;
     width: 100%;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu_tree_wrap{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
 section {

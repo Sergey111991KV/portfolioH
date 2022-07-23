@@ -63,6 +63,86 @@ section {
     scroll-snap-align: center;
 }
 
+section_parallax{
+    scroll-snap-align: none;
+}
+
 .page{
     min-height: 100vh;
+}
+
+/*PARALLAX1*/
+
+.parallax-1-page{
+    height: calc(400vh + 1200px);
+}
+.parallax-1-img{
+    min-height: 100vh;
+}
+.parallax-1-img-text{
+    position: absolute;
+    top: 50vh;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parallax-1-img-text-border{
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+    width: fit-content;
+}
+.parallax-1-img-1, .parallax-1-img-2, .parallax-1-img-3, .parallax-1-img-3{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*
+        parallax
+        scroll
+     */
+    background-attachment: fixed;
+}
+.parallax-1-img-1{
+    background-image: url("../assets/images/parallax1/1.jpeg");
+}
+.parallax-1-img-2{
+    background-image: url("../assets/images/parallax1/2.jpeg");
+}
+.parallax-1-img-3{
+    background-image: url("../assets/images/parallax1/3.jpeg");
+}
+.parallax-1-img-4{
+    background-image: url("../assets/images/parallax1/4.jpeg");
+}
+.parallax-1-text{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.parallax-1-text-blue{
+    background-color: #049fef;
+    color: white;
+}
+.parallax-1-text-orange{
+    background-color: #ecbfad;
+    color: #094b65;
+}
+.parallax-1-text-black{
+    background-color: #110d0d;
+    color: white;
+}
+
+.parallax-1-text-white{
+    background-color: white;
+    color: #232020;
 }
